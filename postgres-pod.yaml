@@ -10,13 +10,14 @@ spec:
   containers:
   - name: postgres
     image: postgres:9.4
-    ports:
-    - containerPort: 5432 
     volumeMounts:
     - mountPath: /var/lib/postgresql/data
       name: db-data
+    ports:
+    - containerPort: 5432   
 
-    
+    volumes:
+    - name: db-data
      
 
 
