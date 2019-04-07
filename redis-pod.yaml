@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
   - name: redis
-    image: redis
+    image: kubernetes/redis
     ports:
     - containerPort: 6379
 
