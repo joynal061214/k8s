@@ -16,9 +16,7 @@ spec:
     ports:
     - containerPort: 5432   
 
-    volumes:
-    - name: db-data
-     
+    
 
 
 
